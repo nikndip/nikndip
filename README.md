@@ -1,38 +1,48 @@
-# Nikita Doronin
+# Никита Доронин
 
-**Go Backend Developer based in Moscow, Russia**
+**Go Backend-разработчик, Москва**
 
-I build backend services and internal business systems with Go and PostgreSQL. I designed a CRM product for a client and continue to maintain it in production. The system supports the daily work of more than 50 employees.
+Разрабатываю backend-сервисы и внутренние бизнес-системы на Go и PostgreSQL. Для заказчика спроектировал и вывел в production проектно-финансовую CRM, которую продолжаю поддерживать. Система используется в ежедневной работе более чем 50 сотрудниками.
 
-## Engineering focus
+## Основные направления
 
-- Backend development with Go, PostgreSQL, REST/HTTP, Echo and chi
-- Transactional business workflows, database design and versioned migrations
-- Modular architecture with clear Handler, Service and Repository boundaries
-- Unit, HTTP, integration, PostgreSQL, race and concurrency testing
-- Docker Compose, Nginx, HTTPS, health checks and production operations
-- Server-side sessions, RBAC, CSRF protection and secure file handling
+- backend-разработка на Go;
+- проектирование PostgreSQL-схем и версионируемых миграций;
+- транзакционные бизнес-процессы и конкурентная безопасность;
+- модульная архитектура с разделением Handler, Service и Repository;
+- REST/HTTP API и серверный рендеринг интерфейсов;
+- unit-, HTTP-, integration-, PostgreSQL-, race- и concurrency-тесты;
+- Docker Compose, Nginx, HTTPS, healthcheck и сопровождение production;
+- серверные сессии, RBAC, CSRF-защита и безопасная работа с файлами.
 
-## Production project
+## Production-проект
 
-My main production project is **ProjectHub**, an internal CRM created for a client to manage projects, tenders, estimates, payment requests, client invoices and document workflows.
+**ProjectHub** — закрытая внутренняя CRM, созданная для заказчика. Она объединяет проекты, тендеры, рабочие сметы, заявки на оплату, клиентские счета, акты, контрагентов, договоры, уведомления и административные расходы.
 
-I designed and implemented the application end to end, including its financial domain model, PostgreSQL transaction boundaries, optimistic locking, role-based access control, automated tests and production deployment. The source code is private because the system was developed for a specific client.
+В рамках проекта реализовал архитектуру и backend, модель данных, финансовую логику, тесты, механизмы безопасности и Docker-развёртывание; сейчас продолжаю сопровождать систему. Исходный код не публикуется из-за конфиденциальности проекта.
 
-## Selected public project
+## Публичная демонстрация
 
 ### [ProjectHub Demo](https://github.com/nikndip/projecthub-demo)
 
-A clean-room Go and PostgreSQL example built specifically for public technical review. It demonstrates modular application boundaries, integer money, transactional budget reservation, concurrency safety with row locking, strict REST handlers, tests, Docker Compose and CI. It contains no production source code or client data.
+Самостоятельная clean-room реализация одного бизнес-сценария ProjectHub без production-кода и данных заказчика. Репозиторий показывает:
 
-## Technology
+- Go и PostgreSQL;
+- REST API и модульные границы приложения;
+- хранение денег целыми копейками;
+- транзакционное резервирование бюджета;
+- конкурентную безопасность через блокировку строк;
+- unit- и HTTP-тесты, race detector;
+- Docker Compose и GitHub Actions.
+
+## Технологии
 
 `Go` · `PostgreSQL` · `SQL` · `REST API` · `HTTP` · `Docker` · `Nginx` · `Git` · `Linux` · `Testing`
 
-## Contact
+## Контакты
 
 - Email: [karacharovskii57@mail.ru](mailto:karacharovskii57@mail.ru)
 - Telegram: [@supdipnik](https://t.me/supdipnik)
-- Location: Moscow, Russia
+- Местоположение: Москва
 
-I am open to Go Backend Developer and Software Engineer opportunities in Moscow, hybrid or remote.
+Рассматриваю позиции Go Backend Developer и Software Engineer: удалённо, гибридно или в офисе в Москве.
