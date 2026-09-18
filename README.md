@@ -21,9 +21,9 @@ I designed and implemented the application end to end, including its financial d
 
 ## Selected public project
 
-### [Corporate Employee Rehabilitation Platform](https://github.com/nikndip/B-final-project)
+### [ProjectHub Demo](https://github.com/nikndip/projecthub-demo)
 
-A Go and PostgreSQL web application developed as a university team project. It includes role-based scenarios for employees, managers and administrators, server-side sessions, CSRF protection, database migrations, SSR templates and a Docker Compose development environment.
+A clean-room Go and PostgreSQL example built specifically for public technical review. It demonstrates modular application boundaries, integer money, transactional budget reservation, concurrency safety with row locking, strict REST handlers, tests, Docker Compose and CI. It contains no production source code or client data.
 
 ## Technology
 
